@@ -32,7 +32,8 @@ class heap{
               }
               else
               {
-                  break;
+                  break;                //o(logn) is the time comlexity
+
               }
               
           }
