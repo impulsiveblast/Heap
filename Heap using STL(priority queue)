@@ -1,0 +1,50 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int main()
+{
+    //priority queue is by default max heap
+    
+    priority_queue<int> maxheap; //max heap created
+    
+    maxheap.push(4);
+    
+    maxheap.push(2);
+    
+    maxheap.push(3);
+    
+    maxheap.push(6);
+    
+    maxheap.push(5);
+    
+    
+    
+    cout<<maxheap.top()<<endl;
+    
+    maxheap.pop();
+    
+    
+    maxheap.pop();
+    
+    cout<<maxheap.size()<<endl;
+    
+    
+    
+    priority_queue<int,vector<int>,greater<int>> minheap;  //min heap
+
+
+
+minheap.push(4);
+minheap.push(2);
+minheap.push(3);
+minheap.push(6);
+minheap.push(5);
+cout << minheap.top() << endl;
+minheap.pop();
+minheap.pop();
+cout << minheap.size();
+
+return 0;
+         
+    
+}
