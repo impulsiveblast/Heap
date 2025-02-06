@@ -1,6 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+    bool chkoperator(char a, char b)
+     {
+        return a > b; 
+          // For a min-heap (lower ASCII value has higher priority)
+        // return a < b; For a max-heap (higher ASCII value has higher priority)
+     }
+
+
 int main()
 {
     //priority queue is by default max heap
